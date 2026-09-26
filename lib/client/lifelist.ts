@@ -5,7 +5,9 @@ import type { Sighting } from "./sighting";
 // access is wrapped and the app works without it. Components read it through
 // useSyncExternalStore(subscribeLifeList, getLifeList, getServerLifeList).
 
-const KEY = "billboard-birder:life-list:v1";
+const KEY = "ad-hawk:life-list:v1";
+// Pre-rename key; read as a fallback so existing life lists carry over.
+const LEGACY_KEY = "billboard-birder:life-list:v1";
 const MAX_ENTRIES = 30;
 
 export type LifeListEntry = Pick<
@@ -24,7 +26,7 @@ function isEntry(v: unknown): v is LifeListEntry {
 
 function readRaw(): string | null {
   try {
-    return window.localStorage.getItem(KEY);
+    return window.localStorage.getItem(KEY) ?? window.localStorage.getItem(LEGACY_KEY);
   } catch {
     return null;
   }

@@ -28,7 +28,7 @@ function announcement(s: Sighting | null): string {
   return "Observing the billboard. Results will appear as they arrive.";
 }
 
-export default function BirderApp() {
+export default function AdHawkApp() {
   const [sighting, setSighting] = useState<Sighting | null>(null);
   const lifeList = useSyncExternalStore(subscribeLifeList, getLifeList, getServerLifeList);
   const run = useRef<AbortController | null>(null);

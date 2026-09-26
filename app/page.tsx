@@ -1,5 +1,5 @@
-import BirderApp from "@/components/BirderApp";
+import AdHawkApp from "@/components/AdHawkApp";
 
 export default function Page() {
-  return <BirderApp />;
+  return <AdHawkApp />;
 }

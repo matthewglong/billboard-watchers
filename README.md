@@ -1,10 +1,10 @@
-# Billboard Birder
+# Ad Hawk
 
 *A Field Guide to the Wild Billboards of San Francisco.*
 
 Photograph a baffling tech billboard. A hushed, delighted nature-documentary narrator identifies the "species", says in plain English what the company actually does, and translates every piece of jargon so a non-tech reader walks away understanding the bigger picture.
 
-Built from [`BILLBOARD_BIRDER_SPEC.md`](./BILLBOARD_BIRDER_SPEC.md).
+Built from [`AD_HAWK_SPEC.md`](./AD_HAWK_SPEC.md).
 
 ## Run it
 

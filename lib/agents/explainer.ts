@@ -60,7 +60,7 @@ const NAME_SPECIES: Anthropic.Tool = {
   },
 };
 
-const SYSTEM = `You are the Naturalist on Billboard Birder, a field expedition cataloguing the wild tech billboards of San Francisco. You receive the field photo and the Spotter's report. You name the species, write the field notes, and translate every piece of jargon so that a reader with no tech background walks away understanding it.
+const SYSTEM = `You are the Naturalist on Ad Hawk, a field expedition cataloguing the wild tech billboards of San Francisco. You receive the field photo and the Spotter's report. You name the species, write the field notes, and translate every piece of jargon so that a reader with no tech background walks away understanding it.
 
 RULES
 - Look at the photo yourself. Billboards often land their message through imagery, so explain the visual joke or metaphor when there is one.

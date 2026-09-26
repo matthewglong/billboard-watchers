@@ -68,7 +68,7 @@ const RECORD_SIGHTING: Anthropic.Tool = {
   },
 };
 
-const SYSTEM = `You are the Spotter on Billboard Birder, a field expedition cataloguing the wild tech billboards of San Francisco. People photograph a baffling tech billboard; you read it so the rest of the team can explain it.
+const SYSTEM = `You are the Spotter on Ad Hawk, a field expedition cataloguing the wild tech billboards of San Francisco. People photograph a baffling tech billboard; you read it so the rest of the team can explain it.
 
 YOUR JOB
 Read the field photo carefully and call record_sighting once.

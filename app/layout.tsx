@@ -17,7 +17,7 @@ const sourceSans = Source_Sans_3({
 });
 
 export const metadata: Metadata = {
-  title: "Billboard Birder",
+  title: "Ad Hawk",
   description:
     "A field guide to the wild billboards of San Francisco. Photograph a baffling tech billboard and find out, in plain English, what the company actually does.",
 };

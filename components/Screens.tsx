@@ -129,7 +129,7 @@ export function Home({
           className="font-display mt-3 text-[3.1rem] font-bold leading-[0.95] tracking-[-0.01em] text-ink sm:text-[3.6rem]"
           style={{ fontVariationSettings: '"SOFT" 100, "WONK" 1, "opsz" 144' }}
         >
-          Billboard Birder
+          Ad Hawk
         </h1>
         <p className="font-display mx-auto mt-3 max-w-[20rem] text-[1.2rem] italic leading-snug text-moss-deep">
           A Field Guide to the Wild Billboards of San Francisco

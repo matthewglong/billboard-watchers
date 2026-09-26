@@ -1,4 +1,4 @@
-# Billboard Birder — Build Spec
+# Ad Hawk — Build Spec
 
 > A bird-watching app for San Francisco tech billboards. Snap or upload a photo of a baffling AI billboard; a hushed nature-documentary narrator identifies the "species," explains what the company actually does in plain English, and translates every piece of jargon so a layperson walks away understanding the bigger picture.
 
@@ -177,7 +177,7 @@ Every agent prompt includes this voice guidance:
 Informative must win: strong contrast, generous spacing, and no decorative element that hurts legibility.
 
 ### Screen 1 — Home ("The Field Guide")
-- Title: **Billboard Birder**, with the subtitle *A Field Guide to the Wild Billboards of San Francisco*
+- Title: **Ad Hawk**, with the subtitle *A Field Guide to the Wild Billboards of San Francisco*
 - Two big buttons:
   - **Spot one now:** `<input type="file" accept="image/*" capture="environment">`
   - **From your camera roll:** the same input without `capture`

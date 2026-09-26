@@ -57,7 +57,7 @@ export async function polishVerdict(verdict: string, company: string | null, sig
       model: MODELS.explainer,
       max_tokens: 80,
       temperature: 0.3,
-      system: `You edit the one-line verdict on a Billboard Birder species card: what a company sells and to whom, for readers with no tech background. Reply with the rewritten line only: no quotes, no preamble.
+      system: `You edit the one-line verdict on a Ad Hawk species card: what a company sells and to whom, for readers with no tech background. Reply with the rewritten line only: no quotes, no preamble.
 
 ${NARRATOR_VOICE}
 
