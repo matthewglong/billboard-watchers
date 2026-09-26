@@ -1,0 +1,373 @@
+[
+  {
+    "term": "AI",
+    "aliases": ["artificial intelligence", "A.I."],
+    "plain_english": "Computer programs that do things we used to think only people could do, like understanding language, recognizing pictures, or making decisions. Most of today's AI learns from huge piles of examples instead of following hand-written rules.",
+    "analogy": "Like a student who got good at a subject by doing millions of practice problems, rather than by memorizing a rulebook.",
+    "joke": "Observe the letters 'AI', now found on nearly every billboard in the city, like a bird that has learned one very well-paid song."
+  },
+  {
+    "term": "LLM",
+    "aliases": ["LLMs", "large language model", "large language models", "language model", "language models"],
+    "plain_english": "Short for large language model: an AI trained on an enormous amount of text so it can read and write human language. You type something, and it predicts a sensible reply, word by word.",
+    "analogy": "Like the autocomplete on your phone, if it had read a good part of the internet and could finish whole essays instead of one word.",
+    "joke": "The LLM has read more than any creature alive, and has never once seen a sunset."
+  },
+  {
+    "term": "Model",
+    "aliases": ["models", "AI model", "AI models", "ML model", "machine learning model"],
+    "plain_english": "The trained 'brain' inside an AI product: a huge file of numbers that holds the patterns it learned. Companies either build their own models or rent someone else's.",
+    "analogy": "Like a recipe perfected over a million tastings: the product is the restaurant, the model is the recipe.",
+    "joke": "Not the kind that walks a runway, though both are photographed constantly and cost a fortune to keep."
+  },
+  {
+    "term": "Agentic",
+    "aliases": ["agent", "agents", "agentic AI", "agentic workflow", "agentic workflows"],
+    "plain_english": "Describes software that doesn't just answer a question but takes actions on its own, one step after another, to finish a task. An 'agent' is a program that works this way.",
+    "analogy": "The difference between a friend who tells you how to book a flight and a friend who books it for you.",
+    "joke": "'Agentic' is the season's most fashionable call. You will hear it from every branch on Market Street."
+  },
+  {
+    "term": "AI agent",
+    "aliases": ["AI agents", "autonomous agent", "AI employee", "AI employees", "AI worker", "AI workers", "digital worker", "AI teammate"],
+    "plain_english": "An AI program given a specific job and the tools to do it, like answering customer emails, filling out forms, or booking meetings. It works through the steps itself and checks with a person when it gets stuck.",
+    "analogy": "Like a new intern: give it a clear task and access to the right systems, and it gets on with the work.",
+    "joke": "Tireless, polite, and entirely unbothered by the office coffee."
+  },
+  {
+    "term": "Copilot",
+    "aliases": ["copilots", "co-pilot", "AI copilot", "AI assistant"],
+    "plain_english": "An AI helper built into software you already use, suggesting what to write, fix, or do next while you stay in charge. You can take its suggestion or ignore it.",
+    "analogy": "Like a navigator in the passenger seat: it reads the map and makes suggestions, but you hold the steering wheel.",
+    "joke": "The copilot never grabs the wheel. It merely clears its throat, meaningfully."
+  },
+  {
+    "term": "Inference",
+    "aliases": ["inferencing", "AI inference", "inference compute"],
+    "plain_english": "The moment an already-trained AI is actually used: it takes your question and produces an answer. Every chatbot reply is one round of inference, and each one costs a little computing power.",
+    "analogy": "If training is years of cooking school, inference is cooking tonight's dinner, again and again, for every customer.",
+    "joke": "Training happens once, at great expense. Inference happens every time you type 'thanks', also at some expense."
+  },
+  {
+    "term": "Training",
+    "aliases": ["model training", "pre-training", "pretraining", "trained"],
+    "plain_english": "Teaching an AI by showing it enormous numbers of examples until it gets good at spotting patterns. Training a big model can take months and thousands of powerful computer chips.",
+    "analogy": "Like learning to recognize birds by flipping through a million photos until you simply know a robin when you see one.",
+    "joke": "Raising the largest specimens takes months, warehouses of chips, and an electricity bill with a great many zeros."
+  },
+  {
+    "term": "Fine-tuning",
+    "aliases": ["fine tuning", "finetuning", "fine-tuned", "fine tuned", "custom model", "custom models"],
+    "plain_english": "Giving an already-trained AI extra lessons on a narrow subject, like legal contracts or one company's support emails. It's far cheaper than training an AI from scratch.",
+    "analogy": "Like an experienced chef spending a week learning one restaurant's menu.",
+    "joke": "The generalist goes off on a short course and returns a specialist. Its fees rise accordingly."
+  },
+  {
+    "term": "Prompt",
+    "aliases": ["prompts", "prompting", "prompt engineering", "one prompt"],
+    "plain_english": "The instructions or question you type to an AI. Clearer prompts usually get better results.",
+    "analogy": "Like ordering at a café: 'coffee' gets you something, but 'large oat-milk latte, extra hot' gets you what you wanted.",
+    "joke": "In the wild, one well-placed prompt can summon an entire app. Or, occasionally, a poem about ducks."
+  },
+  {
+    "term": "Token",
+    "aliases": ["tokens", "tokenization"],
+    "plain_english": "In AI, the small chunks of text a model reads and writes, often a word or part of a word; companies count and charge by the token. (In crypto, a token is a kind of digital coin.)",
+    "analogy": "Like a taxi meter for words: the longer the conversation, the higher the fare.",
+    "joke": "Roughly three-quarters of a word each. The creature eats text one crumb at a time, and bills by the crumb."
+  },
+  {
+    "term": "Context window",
+    "aliases": ["context windows", "context length", "long context"],
+    "plain_english": "How much text an AI can keep in mind at once: your question, the documents you gave it, and the conversation so far. Anything past that limit drops out of view.",
+    "analogy": "Like a desk: a bigger desk lets you spread out more papers at once, but it's still not the whole library.",
+    "joke": "The largest specimens can hold several novels in mind at once. Most of us struggle with one on a Tuesday."
+  },
+  {
+    "term": "RAG",
+    "aliases": ["retrieval-augmented generation", "retrieval augmented generation"],
+    "plain_english": "A method where an AI first looks up relevant documents, like a company's help pages, and then writes its answer using them. It helps the AI give specific, up-to-date answers instead of guessing.",
+    "analogy": "Like an open-book exam instead of answering from memory.",
+    "joke": "Short for 'retrieval-augmented generation', which is why everyone says RAG. The creature fetches before it speaks: a very good habit."
+  },
+  {
+    "term": "Embeddings",
+    "aliases": ["embedding", "vector embeddings", "vectors", "vector"],
+    "plain_english": "A way of turning words, pictures, or documents into lists of numbers so a computer can tell which things mean similar things. Similar meanings get similar numbers.",
+    "analogy": "Like giving every book in a library map coordinates, so books on similar topics end up shelved side by side.",
+    "joke": "To the machine, 'puppy' and 'dog' live on the same street. 'Invoice' lives in another town entirely."
+  },
+  {
+    "term": "Vector database",
+    "aliases": ["vector databases", "vector DB", "vector store", "vector search"],
+    "plain_english": "A storage system built to hold those lists of numbers and quickly find the items closest in meaning to what you're looking for. It's how many AI apps find the right document among millions.",
+    "analogy": "Like a librarian who can instantly hand you every book that feels like the one you're holding.",
+    "joke": "It doesn't search for your exact words. It searches for what you meant, which is more than most of us manage."
+  },
+  {
+    "term": "GPU",
+    "aliases": ["GPUs", "graphics processing unit", "graphics card", "AI chips", "chips"],
+    "plain_english": "A computer chip first built to draw video-game graphics, which turned out to be excellent at the math AI needs. Training and running AI takes enormous numbers of them.",
+    "analogy": "Like swapping one brilliant mathematician for ten thousand fast calculators working at the same time.",
+    "joke": "Once the humble servant of video games, the GPU is now the most sought-after creature in the valley. Whole companies migrate toward it."
+  },
+  {
+    "term": "Compute",
+    "aliases": ["computing power", "compute power", "processing power"],
+    "plain_english": "Tech shorthand for computing power: the chips, electricity, and data centers needed to run software, especially AI. Companies buy it or rent it, often by the hour.",
+    "analogy": "Like horsepower for software: the more you have, the bigger the loads you can pull.",
+    "joke": "Around here, 'compute' is a noun, and there is never enough of it. Much like parking."
+  },
+  {
+    "term": "API",
+    "aliases": ["APIs", "application programming interface", "endpoint", "endpoints"],
+    "plain_english": "A set of rules that lets one piece of software ask another for information or help. It's how apps talk to each other behind the scenes.",
+    "analogy": "Like a restaurant menu: you don't walk into the kitchen, you order from the list and the food comes out.",
+    "joke": "The waiter of the software world: never seen cooking, always taking orders."
+  },
+  {
+    "term": "SDK",
+    "aliases": ["SDKs", "software development kit", "dev kit"],
+    "plain_english": "A ready-made toolkit that helps programmers build things that work with a particular app or service. It saves them from writing everything from scratch.",
+    "analogy": "Like flat-pack furniture that comes with exactly the right screws and a little wrench.",
+    "joke": "Some assembly required. Fortunately, the screws are included."
+  },
+  {
+    "term": "Open source",
+    "aliases": ["open-source", "open weights", "open-weight", "open model", "open models", "OSS"],
+    "plain_english": "Software whose code is published for anyone to read, use, and change, usually for free. For AI, 'open weights' means the trained model itself is shared for anyone to download.",
+    "analogy": "Like a recipe printed in a cookbook instead of a secret family recipe.",
+    "joke": "A generous species that gives away its recipes and makes its living selling dinner."
+  },
+  {
+    "term": "Foundation model",
+    "aliases": ["foundation models", "frontier model", "frontier models", "base model", "base models"],
+    "plain_english": "A very large, general-purpose AI that many other products are built on top of. Only a handful of companies can afford to make one.",
+    "analogy": "Like an engine that one maker builds and many different car brands put inside their cars.",
+    "joke": "The great oaks of this ecosystem: few in number, costly to grow, and home to a thousand smaller startups."
+  },
+  {
+    "term": "Multimodal",
+    "aliases": ["multimodal AI", "multimodal data", "multi-modal", "multimodality"],
+    "plain_english": "Able to handle more than one kind of information: text, pictures, sound, and video. A multimodal AI can, for example, look at a photo and answer questions about it.",
+    "analogy": "Like a person who can read, listen, and look, instead of only read.",
+    "joke": "A creature of many senses. This very field guide is multimodal: it just looked at your photo."
+  },
+  {
+    "term": "Hallucination",
+    "aliases": ["hallucinations", "hallucinate", "hallucinates", "hallucinating"],
+    "plain_english": "When an AI states something false with total confidence, like a made-up fact or a fake quote. It happens because the AI predicts likely-sounding words rather than checking facts.",
+    "analogy": "Like a confident tour guide who, when unsure, invents a charming story instead of saying 'I don't know'.",
+    "joke": "The creature does not lie, exactly. It fills gaps in its knowledge with great confidence, like many of us at dinner parties."
+  },
+  {
+    "term": "Eval",
+    "aliases": ["evals", "evaluation", "evaluations", "benchmark", "benchmarks"],
+    "plain_english": "A test that measures how well an AI does a job, like a set of questions with known right answers. Companies run evals to check whether a change made their AI better or worse.",
+    "analogy": "Like a driving test for software, retaken after every tune-up.",
+    "joke": "Each creature sits its exams before release. Some study for the test, which researchers find very annoying."
+  },
+  {
+    "term": "Guardrails",
+    "aliases": ["guardrail", "safety guardrails", "safeguards", "AI safety"],
+    "plain_english": "Rules and checks placed around an AI to stop it from doing harmful, off-topic, or embarrassing things. A bank's chatbot, for example, might be blocked from giving investment advice.",
+    "analogy": "Like the bumpers in a bowling lane: the ball still rolls freely, it just can't end up in the gutter.",
+    "joke": "Even the boldest creature is kept, gently, from wandering onto the freeway."
+  },
+  {
+    "term": "Orchestration",
+    "aliases": ["orchestrate", "orchestrator", "AI orchestration", "multi-agent", "multi-agent systems"],
+    "plain_english": "Coordinating many programs, or many AI agents, so each does its part in the right order. The coordinator hands out tasks and combines the results.",
+    "analogy": "Like a conductor keeping an orchestra together: no single musician plays the whole symphony.",
+    "joke": "In this very app, one creature reads the billboard, another researches, a third translates. Someone must hold the baton."
+  },
+  {
+    "term": "Workflow automation",
+    "aliases": ["automation", "automations", "automate", "workflow", "workflows", "business process automation"],
+    "plain_english": "Setting up software to do routine, multi-step chores by itself, like copying each new order into a spreadsheet and emailing a receipt. It replaces repetitive clicking and copy-pasting.",
+    "analogy": "Like a row of dominoes: set it up once, tip the first one, and the rest happens on its own.",
+    "joke": "Every Monday, somewhere, a spreadsheet fills itself in, and an office worker quietly rejoices."
+  },
+  {
+    "term": "No-code",
+    "aliases": ["no code", "nocode", "no-code tools"],
+    "plain_english": "Tools that let people build apps, websites, or automations by clicking and dragging instead of writing computer code. They're made for people who aren't programmers.",
+    "analogy": "Like building with LEGO instead of carving each brick out of wood.",
+    "joke": "The no-code species builds its nest from ready-made twigs. Remarkably effective, and no splinters."
+  },
+  {
+    "term": "Low-code",
+    "aliases": ["low code", "lowcode"],
+    "plain_english": "Tools for building software mostly by clicking and dragging, with a little typed code when needed. They speed up programmers and let non-programmers do more.",
+    "analogy": "Like a cake mix: most of the work is done for you, but you still crack a couple of eggs.",
+    "joke": "A close cousin of no-code, told apart only by a small, optional amount of typing."
+  },
+  {
+    "term": "SaaS",
+    "aliases": ["software as a service", "SaaS platform", "subscription software", "cloud software"],
+    "plain_english": "Software you rent by subscription and use through a web browser, instead of buying it once and installing it. Most business software works this way today.",
+    "analogy": "Like paying monthly for a music streaming service instead of buying CDs.",
+    "joke": "Pronounced 'sass'. It lives online and bills you every month, forever, with great charm."
+  },
+  {
+    "term": "B2B",
+    "aliases": ["business-to-business", "business to business"],
+    "plain_english": "Short for business-to-business: a company that sells to other companies instead of to everyday shoppers. Many Bay Area billboards are B2B, aimed at the people who choose software at work.",
+    "analogy": "Like a wholesale bakery that sells bread to cafés, not to you.",
+    "joke": "The B2B billboard is not speaking to you. It is speaking to your boss, who is stuck in the same traffic."
+  },
+  {
+    "term": "Enterprise",
+    "aliases": ["enterprises", "enterprise-grade", "enterprise grade", "for the enterprise", "enterprise AI"],
+    "plain_english": "Tech-speak for big companies, usually with thousands of employees. 'Enterprise-grade' means built to meet big companies' demands for security, reliability, and support.",
+    "analogy": "Like the difference between a family car and a fleet of delivery trucks that comes with a service contract.",
+    "joke": "The enterprise is the great whale of these waters. Every startup dreams of landing one."
+  },
+  {
+    "term": "Platform",
+    "aliases": ["platforms", "all-in-one platform", "one platform"],
+    "plain_english": "A product that other things are built on or plugged into, rather than a single tool. A company that calls itself a platform wants to be the base for many jobs, not just one.",
+    "analogy": "Like a shopping mall rather than a single shop: lots happens there, and the landlord collects rent from all of it.",
+    "joke": "Few startups are content to remain a tool. Most, upon maturing, announce that they are a platform."
+  },
+  {
+    "term": "Infrastructure",
+    "aliases": ["infra", "AI infrastructure", "cloud infrastructure", "data infrastructure"],
+    "plain_english": "The behind-the-scenes technology that other software runs on, like servers, databases, and networks. Customers rarely see it, but everything breaks without it.",
+    "analogy": "Like the pipes and wiring hidden inside a building's walls.",
+    "joke": "The plumbing of the internet: unglamorous, essential, and behind a surprising share of billboards."
+  },
+  {
+    "term": "Observability",
+    "aliases": ["o11y", "monitoring", "AI observability", "telemetry"],
+    "plain_english": "Tools that let engineers see what's happening inside their software while it runs, so they can spot and fix problems quickly. They collect measurements, activity records, and error reports.",
+    "analogy": "Like the dashboard and warning lights in a car, but for an app.",
+    "joke": "It watches software the way we watch birds: patiently, with notes. Engineers write it 'o11y', having tired of the eleven letters in the middle."
+  },
+  {
+    "term": "Latency",
+    "aliases": ["low latency", "low-latency", "lag", "response time"],
+    "plain_english": "The delay between asking a computer for something and getting the answer. 'Low latency' means fast responses.",
+    "analogy": "Like the pause between ordering at the counter and your coffee arriving.",
+    "joke": "Measured in thousandths of a second. Engineers will argue bitterly over a tenth of one."
+  },
+  {
+    "term": "Seed round",
+    "aliases": ["seed", "seed funding", "seed-stage", "seed stage", "pre-seed", "preseed"],
+    "plain_english": "A startup's first real money from investors, usually spent building the first version of the product. It's often a few hundred thousand to a few million dollars.",
+    "analogy": "Like the first watering of a seedling: enough to see whether it sprouts.",
+    "joke": "The fledgling stage. Still in the nest, still being fed, and already practicing its pitch."
+  },
+  {
+    "term": "Series A",
+    "aliases": ["Series A round", "Series A funding", "Series B", "Series C", "Series D", "Series E"],
+    "plain_english": "A startup's first big investment round after its seed money, usually raised once it has real customers. Later rounds go down the alphabet (Series B, C, D), and each is usually bigger.",
+    "analogy": "Like moving from a food truck to your first real restaurant, with investors paying for the kitchen.",
+    "joke": "The alphabet of adolescence. By Series C the creature has fledged, and is hiring very loudly."
+  },
+  {
+    "term": "Runway",
+    "aliases": ["cash runway", "months of runway", "burn rate", "burn"],
+    "plain_english": "How many months a startup can keep going before its money runs out, at the rate it's spending. More runway means more time to find customers or raise more money.",
+    "analogy": "Like the runway under a plane: you need to be flying before you reach the end.",
+    "joke": "Before the runway ends, the creature must either take flight or find more runway. There is no third option."
+  },
+  {
+    "term": "Unicorn",
+    "aliases": ["unicorns", "decacorn", "billion-dollar startup"],
+    "plain_english": "A private startup that investors value at $1 billion or more. The name comes from how rare these once were.",
+    "analogy": "Like a house appraised at a billion dollars before anyone has actually bought it.",
+    "joke": "Once so rare they were named after a mythical beast. San Francisco now has enough for a small herd."
+  },
+  {
+    "term": "YC",
+    "aliases": ["Y Combinator", "YCombinator", "YC-backed", "backed by YC"],
+    "plain_english": "Y Combinator, a famous San Francisco program that invests a small amount in very young startups and coaches them for about three months. Airbnb and Stripe both started there.",
+    "analogy": "Like a summer boot camp for startups that ends with a big show for investors.",
+    "joke": "Graduates can be recognized by a small 'YC' badge on their plumage, worn proudly for life."
+  },
+  {
+    "term": "Data warehouse",
+    "aliases": ["warehouse", "data warehouses", "cloud data warehouse", "data lake", "lakehouse", "data lakehouse"],
+    "plain_english": "A big, organized store where a company gathers information from all its systems, like sales, customers, and website visits, so people can study it together. It's built for asking questions across huge amounts of data at once.",
+    "analogy": "Like a company's central filing room, where every department's records end up neatly labeled.",
+    "joke": "Despite the name, no forklifts. Just an extraordinary number of very tidy rows."
+  },
+  {
+    "term": "Data pipeline",
+    "aliases": ["pipeline", "pipelines", "data pipelines", "ETL", "ELT"],
+    "plain_english": "An automatic system that moves data from one place to another, cleaning and reshaping it along the way. For example, copying each day's sales from a shop's app into the company's data warehouse.",
+    "analogy": "Like plumbing that carries water from the reservoir, through a filter, to your tap.",
+    "joke": "No actual pipes are involved, though when one breaks, an engineer still gets a call at 3 a.m."
+  },
+  {
+    "term": "Training data",
+    "aliases": ["dataset", "datasets", "AI data", "AI training data", "data for AI", "labeled data", "data labeling", "synthetic data"],
+    "plain_english": "The examples an AI learns from: text, photos, videos, or recordings, often labeled by people. Better and more varied examples usually make a better AI.",
+    "analogy": "Like the textbooks and practice tests a student studies from.",
+    "joke": "The creature is, quite literally, what it eats. Several companies now make their living as its caterers."
+  },
+  {
+    "term": "Customer experience",
+    "aliases": ["CX", "customer experiences", "customer service", "customer support"],
+    "plain_english": "Everything a customer goes through with a company: shopping, asking for help, returning things. On a tech billboard it usually means software that answers customers' questions.",
+    "analogy": "Like the whole visit to a restaurant, not just the food: the greeting, the wait, the bill.",
+    "joke": "In billboard dialect, a 'perfect customer experience' is often your question, answered at 3 a.m. by something that never sleeps."
+  },
+  {
+    "term": "Cloud",
+    "aliases": ["the cloud", "cloud computing", "cloud-native", "cloud native", "in the cloud"],
+    "plain_english": "Computers in huge data centers, run by companies like Amazon, Microsoft, and Google, that people rent over the internet instead of buying their own. Your photos, email, and most apps live there.",
+    "analogy": "Like renting a storage unit instead of building a shed in your backyard.",
+    "joke": "The cloud is, on inspection, a very large building full of humming computers. Considerably less fluffy than advertised."
+  },
+  {
+    "term": "MCP",
+    "aliases": ["Model Context Protocol", "MCP server", "MCP servers"],
+    "plain_english": "Model Context Protocol: a shared standard that lets AI assistants plug into other apps and information, like your calendar or a company's files. Anthropic introduced it in 2024, and many AI tools now use it.",
+    "analogy": "Like a universal travel adapter, so one plug fits every country's outlets.",
+    "joke": "A common language, so creatures from different companies can finally share a watering hole."
+  },
+  {
+    "term": "Vibe coding",
+    "aliases": ["vibecoding", "vibe-coding", "vibe code", "AI coding", "coding agent", "coding agents"],
+    "plain_english": "Making software by describing what you want to an AI in plain words and letting it write the code. The phrase took off in 2025.",
+    "analogy": "Like telling a builder 'something cozy with big windows' and letting them work out the blueprints.",
+    "joke": "A young species. It builds its nest by describing the nest, out loud, to a helper."
+  },
+  {
+    "term": "AGI",
+    "aliases": ["artificial general intelligence", "superintelligence", "ASI"],
+    "plain_english": "Artificial general intelligence: a hoped-for AI that could learn and do almost any mental task as well as a person. Experts disagree on exactly what counts, and on when or whether it will arrive.",
+    "analogy": "Like the difference between a calculator and a colleague who can pick up any job.",
+    "joke": "Frequently sighted on billboards, less often in the wild. The experts are still arguing over its field marks."
+  },
+  {
+    "term": "Reasoning model",
+    "aliases": ["reasoning models", "reasoning", "thinking model", "chain of thought"],
+    "plain_english": "An AI that works through a problem step by step before answering, instead of replying instantly. It's slower, but better at math, code, and tricky questions.",
+    "analogy": "Like a student who shows their work on scratch paper before writing the final answer.",
+    "joke": "This one pauses before speaking. In San Francisco, that alone makes it a rare bird."
+  },
+  {
+    "term": "Chatbot",
+    "aliases": ["chatbots", "chat bot", "bot", "chat assistant"],
+    "plain_english": "A program you talk with by typing or speaking, which answers in everyday language. Today's chatbots mostly run on large language models.",
+    "analogy": "Like texting a very well-read help desk.",
+    "joke": "It once knew only 'Sorry, I didn't catch that.' It has since read the internet, and has a great deal more to say."
+  },
+  {
+    "term": "Startup",
+    "aliases": ["startups", "start-up", "early-stage startup", "venture-backed"],
+    "plain_english": "A young company built to grow very fast, usually paid for by investors in exchange for a share of the company. Most startups fail, and a few become enormous.",
+    "analogy": "Like a restaurant that borrows money to open ten locations before the first one turns a profit.",
+    "joke": "San Francisco's most common native species, easily identified by its hoodie and its sense of urgency."
+  },
+  {
+    "term": "Venture capital",
+    "aliases": ["VC", "VCs", "venture capitalist", "venture capitalists", "investors", "backed by"],
+    "plain_english": "Money that investment firms put into young, risky companies in exchange for part-ownership. They expect most bets to fail and a few to pay back many times over.",
+    "analogy": "Like planting a hundred seeds knowing only a few will grow into trees, and hoping one becomes a redwood.",
+    "joke": "The courtship display of the startup is performed chiefly for venture capitalists, who are notoriously hard to impress."
+  }
+]

@@ -1,0 +1,138 @@
+{
+  "recorded_at": "2026-09-26T21:28:54.060Z",
+  "photo": "/sample/sighting.jpg",
+  "events": [
+    {
+      "t": 4109,
+      "event": "spotter",
+      "data": {
+        "is_tech_billboard": true,
+        "readable": true,
+        "billboard_text": "WAREHOUSE\nPIPELINES\nAPPS\nAGENTS\nONE PROMPT\n\nMOTHERDUCK.COM",
+        "company_name": "MotherDuck",
+        "company_url_guess": "https://motherduck.com/",
+        "visual_read": "A light blue billboard with the MotherDuck logo—a stylized orange duck—at the top. Bold dark text stacks four technical terms vertically, with \"ONE PROMPT\" below in smaller type. A simple white cloud illustration sits in the lower left corner. The design is clean and minimal, suggesting efficiency and cloud-based simplicity.",
+        "jargon_terms": [
+          "warehouse",
+          "pipelines",
+          "agents"
+        ],
+        "confidence": "high",
+        "subject_if_not_tech": null
+      }
+    },
+    {
+      "t": 4281,
+      "event": "photographer",
+      "data": {
+        "hero_image_url": "/sample/hero.png",
+        "logo_url": "/sample/logo.png",
+        "screenshot_url": "/sample/screenshot.png",
+        "page_url": "https://motherduck.com/"
+      }
+    },
+    {
+      "t": 10745,
+      "event": "explainer",
+      "data": {
+        "species_name": "Anatis datafluvius",
+        "field_notes": "A striking creature of pale blue plumage, this billboard bears a stylized orange duck and announces four nested chambers: warehouse, pipelines, apps, agents. The creature's call—\"ONE PROMPT\"—suggests that a single voice summons all four functions at once, a remarkable display of coordination in the data ecosystem.",
+        "jargon": [
+          {
+            "term": "warehouse",
+            "plain_english": "A large storage building where things are kept organized. In data terms, it's a giant storage system for information that many programs can pull from and use together.",
+            "joke": "Even ducks need somewhere to stash their data before the river flows downstream."
+          },
+          {
+            "term": "pipelines",
+            "plain_english": "Tubes that carry water or gas from one place to another. Here, it means automated channels that move and transform information from one place to the next.",
+            "joke": "The infrastructure that keeps data flowing—no leaks, no kinks, just smooth passage."
+          },
+          {
+            "term": "agents",
+            "plain_english": "People who act on behalf of others. In software, these are small automated helpers that do tasks without needing a human to click buttons each time.",
+            "joke": "Tiny digital assistants that work while you sleep, whispering instructions to the warehouse."
+          },
+          {
+            "term": "prompt",
+            "plain_english": "A question or instruction you type in, usually to a computer or an AI. Here, it means you ask for what you want in plain language, and the system figures out the rest.",
+            "joke": "The magic incantation that sets the whole orchestra playing—no sheet music required."
+          }
+        ],
+        "jargon_density": 6,
+        "jargon_density_note": "A creature that speaks in layers: one plain word (apps), three technical terms, and a promise of simplicity underneath."
+      }
+    },
+    {
+      "t": 11772,
+      "event": "researcher",
+      "data": {
+        "company_name": "MotherDuck",
+        "url": "https://motherduck.com/",
+        "verdict": "Sells fast, cheap data analysis tools to companies and analysts.",
+        "behavior": null,
+        "diet": null,
+        "habitat": null,
+        "natural_predators": [],
+        "stage": null,
+        "rarity": null,
+        "rarity_reason": null,
+        "bigger_picture": null,
+        "sources": [],
+        "partial": true
+      }
+    },
+    {
+      "t": 18400,
+      "event": "researcher",
+      "data": {
+        "company_name": "MotherDuck",
+        "url": "https://motherduck.com/",
+        "verdict": "Sells fast, cheap data analysis tools to companies and analysts.",
+        "behavior": "MotherDuck builds a serverless (no servers to manage) data analysis service built on DuckDB, an open-source tool for quickly querying large sets of data. For example, a company's data team could use it to run instant reports on sales numbers without setting up or paying for a big, expensive cloud data warehouse.",
+        "diet": "Data analysts, software developers, and businesses use it to crunch numbers; the company itself is paid via subscriptions to its cloud service.",
+        "habitat": "Seattle, WA",
+        "natural_predators": [
+          "Snowflake",
+          "Google BigQuery",
+          "Databricks"
+        ],
+        "stage": "Well-funded startup (Series B, $100M raised total, $400M valuation)",
+        "rarity": "uncommon",
+        "rarity_reason": "Backed by big-name investors like a16z and valued near half a billion dollars, but still a private startup most non-techies have never heard of.",
+        "bigger_picture": "Companies now drown in data but don't want to pay huge cloud bills or hire armies of engineers just to ask simple questions of it. MotherDuck bets that most businesses' data actually fits comfortably on a single fast machine, so it packages a lightweight open-source database (DuckDB) as an easy, affordable cloud service. The billboard's jargon-stack—warehouse, pipelines, apps, agents—collapsing into \"one prompt\" pitches simplicity: instead of hiring specialists to build complex systems, just ask in plain language and let AI handle the rest.",
+        "sources": [
+          {
+            "url": "https://www.dbta.com/Editorial/News-Flashes/MotherDuck-Raises-525M-in-Series-B-Funding-160665.aspx",
+            "title": "MotherDuck Raises $52.5M in Series B Funding - Database Trends and Applications"
+          },
+          {
+            "url": "https://www.clay.com/dossier/motherduck-funding",
+            "title": "How Much Did MotherDuck Raise? Funding & Key Investors | Clay"
+          },
+          {
+            "url": "https://www.geekwire.com/2023/seattle-startup-motherduck-raises-52-5m-at-a-400m-valuation-to-fuel-duckdb-analytics-platform/",
+            "title": "Seattle startup MotherDuck raises $52.5M at a $400M valuation to fuel DuckDB analytics platform – GeekWire"
+          },
+          {
+            "url": "https://www.prnewswire.com/news-releases/motherduck-raises-52-5-million-series-b-funding-as-duckdb-adoption-soars-301932741.html",
+            "title": "MotherDuck Raises $52.5 Million Series B Funding as DuckDB Adoption Soars"
+          }
+        ]
+      }
+    },
+    {
+      "t": 18401,
+      "event": "done",
+      "data": {
+        "total_ms": 18263,
+        "timings": {
+          "spotter": 3962,
+          "photographer": 180,
+          "explainer": 6645,
+          "researcher": 14299
+        }
+      }
+    }
+  ]
+}
